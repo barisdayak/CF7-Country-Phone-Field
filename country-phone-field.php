@@ -2,9 +2,12 @@
 /*
 Plugin Name: Bd Country Flags Contact Form 7
 Description: Adds a custom phone input field with country flags to Contact Form 7.
-Version: 1.0
+Version: 2.0
 Author: Barış Dayak
+Author URI: https://barisdayak.com
+Plugin URI: https://github.com/barisdayak/CF7-Country-Phone-Field/tree/main
 */
+
 
 if (!defined('ABSPATH')) exit; 
 
