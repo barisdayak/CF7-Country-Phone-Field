@@ -1,10 +1,31 @@
-# CF7-Country-Phone-Field
-Plugin for WordPress Contact Form 7 that adds dynamic country code selection and phone number input field.
+# CF7 Country Phone Field
+
+A powerful WordPress plugin that enhances Contact Form 7 with a country phone input field. Displays country flags and codes dynamically, with custom search functionality.
 
 # <strong>Bd Country Flags Contact Form 7 Plugin</strong>  
 <strong>Version:</strong> 2.0  <br>  
 <strong>Developer:</strong> Barış Dayak  <br>  
 <strong>Official Website:</strong> <a href="https://barisdayak.com" target="_blank">Barış Dayak Official Website</a>  
+
+
+Features
+- 🌍 Country Phone Codes with Flags:
+Displays country flags and corresponding phone codes from over 250 countries.
+- 🔍 Smart Country Search:
+Instantly filter countries while typing in the search box.
+- 📱 Fully Responsive Design:
+Works perfectly on mobile, tablet, and desktop devices.
+- 🌐 Default Country Setting:
+Customize the default country code (e.g., +1 for the USA or +90 for Turkey).
+- ✨ Automatic Email Integration:
+Automatically includes the selected country code and phone number in email submissions via Contact Form 7.
+
+
+## Installation
+1.Download the Plugin: Clone or download this repository from GitHub.
+2.Upload to WordPress: Upload the plugin folder to your WordPress installation under /wp-content/plugins/.
+3.Activate the Plugin:Go to the WordPress Admin Panel and activate the plugin under the Plugins menu.
+
 
 ---
 ![preview1](https://github.com/user-attachments/assets/d86c20ef-1419-48fb-8e2d-95d9592ae231)
@@ -19,7 +40,7 @@ Plugin for WordPress Contact Form 7 that adds dynamic country code selection and
 
 <h2>Note !</h2>  
 
-<h3>Form Integration Guide </h3> 
+<h3>✨ Form Integration Guide </h3> 
 <p>To integrate the phone number input field with country flags into Contact Form 7 forms, you need to add the following HTML structure inside your form template:</p> 
 <pre><code>
 &lt;label&gt;Phone Number&lt;/label&gt;
@@ -39,7 +60,7 @@ Plugin for WordPress Contact Form 7 that adds dynamic country code selection and
 </code></pre>
 
 
-<h3>Functions.php Integration</h3> 
+<h3>💻 Add PHP Code to functions.php</h3> 
 <p>To ensure proper backend processing of the phone number input field in Contact Form 7, add the following code to your theme's <code>functions.php</code> file:</p> 
 <pre><code>
 &lt;?php
@@ -144,7 +165,6 @@ function cf7_add_country_phone_to_mail($mail_components, $contact_form, $instanc
 
 ---
 
-<h2>About Barış Dayak</h2>  
+<h2>👨‍💻 About Barış Dayak</h2>  
 <p>Barış Dayak is an experienced web developer specializing in WordPress web design and custom plugin development. He has contributed to numerous professional projects, helping businesses succeed online with innovative digital solutions.</p>  
-
-<p>For more details, visit the <a href="https://barisdayak.com/wordpress-web-tasarim-uzmani/" target="_blank" rel="noopener noreferrer">Official Barış Dayak Website</a>.</p>
+🚀 Created by [Barış Dayak - WordPress Expert](https://barisdayak.com/wordpress-web-tasarim-uzmani/).
