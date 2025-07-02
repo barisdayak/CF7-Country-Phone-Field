@@ -1,0 +1,28 @@
+{
+  "name": "barisdayak/cf7-country-phone-field",
+  "description": "A WordPress plugin that adds a country code selector with flag icons to Contact Form 7 phone fields.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Barış Dayak",
+      "email": "info@barisdayak.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "CF7CountryPhoneField\\": "includes/"
+    }
+  },
+  "support": {
+    "source": "https://github.com/barisdayak/CF7-Country-Phone-Field"
+  },
+  "extra": {
+    "wordpress-plugin": {
+      "main-file": "cf7-country-phone-field.php"
+    }
+  }
+}
